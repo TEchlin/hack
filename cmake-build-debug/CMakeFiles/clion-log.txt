@@ -1,4 +1,11 @@
 /home/echlitk1/CLion/clion-2016.3.3/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/echlitk1/CLionProjects/hack
--- Configuring done
--- Generating done
--- Build files have been written to: /home/echlitk1/CLionProjects/hack/cmake-build-debug
+CMake Error at /home/echlitk1/CLion/clion-2016.3.3/bin/cmake/share/cmake-3.6/Modules/FindPackageHandleStandardArgs.cmake:148 (message):
+  in FindhackLib3.cmake - ERROR!! (missing: HACKLIB3_LIBRARY)
+Call Stack (most recent call first):
+  /home/echlitk1/CLion/clion-2016.3.3/bin/cmake/share/cmake-3.6/Modules/FindPackageHandleStandardArgs.cmake:388 (_FPHSA_FAILURE_MESSAGE)
+  FindhackLib3.cmake:9 (find_package_handle_standard_args)
+  CMakeLists.txt:13 (find_package)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/echlitk1/CLionProjects/hack/cmake-build-debug/CMakeFiles/CMakeOutput.log".
