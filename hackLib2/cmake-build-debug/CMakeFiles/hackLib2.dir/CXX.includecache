@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/echlitk1/CLionProjects/hack/hackLib2/classyHack.cpp
+classyHack.h
+/home/echlitk1/CLionProjects/hack/hackLib2/classyHack.h
+iostream
+-
+
+/home/echlitk1/CLionProjects/hack/hackLib2/classyHack.h
+

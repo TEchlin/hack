@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="hack"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\hackLib3\;CMake Files\hackLib2\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/echlitk1/CLionProjects/hack/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/echlitk1/CLionProjects/hack/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/echlitk1/CLionProjects/hack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/echlitk1/CLionProjects/hack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/echlitk1/CLionProjects/hack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/echlitk1/CLionProjects/hack/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/echlitk1/CLionProjects/hack/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/echlitk1/CLionProjects/hack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/echlitk1/CLionProjects/hack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/echlitk1/CLionProjects/hack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/echlitk1/CLionProjects/hack/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/echlitk1/CLionProjects/hack/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/echlitk1/CLionProjects/hack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/echlitk1/CLionProjects/hack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/echlitk1/CLionProjects/hack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hack">
+				<Option output="/home/echlitk1/CLionProjects/hack/cmake-build-debug/hack" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/echlitk1/CLionProjects/hack/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/echlitk1/CLionProjects/hack/hackLib2"/>
+					<Add directory="/home/echlitk1/CLionProjects/hackLib3"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/echlitk1/CLionProjects/hack/cmake-build-debug/Makefile&quot;  VERBOSE=1 hack"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/echlitk1/CLionProjects/hack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/echlitk1/CLionProjects/hack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/echlitk1/CLionProjects/hack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hack/fast">
+				<Option output="/home/echlitk1/CLionProjects/hack/cmake-build-debug/hack" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/echlitk1/CLionProjects/hack/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/echlitk1/CLionProjects/hack/hackLib2"/>
+					<Add directory="/home/echlitk1/CLionProjects/hackLib3"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/echlitk1/CLionProjects/hack/cmake-build-debug/Makefile&quot;  VERBOSE=1 hack/fast"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/echlitk1/CLionProjects/hack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/echlitk1/CLionProjects/hack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/echlitk1/CLionProjects/hack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hackLib2">
+				<Option output="/home/echlitk1/CLionProjects/hack/cmake-build-debug/hackLib2/libhackLib2.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/echlitk1/CLionProjects/hack/cmake-build-debug/hackLib2"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/echlitk1/CLionProjects/hack/hackLib2"/>
+					<Add directory="/home/echlitk1/CLionProjects/hackLib3"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/echlitk1/CLionProjects/hack/cmake-build-debug/hackLib2/Makefile&quot;  VERBOSE=1 hackLib2"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/echlitk1/CLionProjects/hack/cmake-build-debug/hackLib2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/echlitk1/CLionProjects/hack/cmake-build-debug/hackLib2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/echlitk1/CLionProjects/hack/cmake-build-debug/hackLib2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hackLib2/fast">
+				<Option output="/home/echlitk1/CLionProjects/hack/cmake-build-debug/hackLib2/libhackLib2.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/echlitk1/CLionProjects/hack/cmake-build-debug/hackLib2"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/echlitk1/CLionProjects/hack/hackLib2"/>
+					<Add directory="/home/echlitk1/CLionProjects/hackLib3"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../include/c++/4.4.7/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/echlitk1/CLionProjects/hack/cmake-build-debug/hackLib2/Makefile&quot;  VERBOSE=1 hackLib2/fast"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/echlitk1/CLionProjects/hack/cmake-build-debug/hackLib2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/echlitk1/CLionProjects/hack/cmake-build-debug/hackLib2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/echlitk1/CLionProjects/hack/cmake-build-debug/hackLib2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/echlitk1/CLionProjects/hack/hackLib2/classyHack.cpp">
+			<Option target="hackLib2"/>
+		</Unit>
+		<Unit filename="/home/echlitk1/CLionProjects/hack/hackLib2/classyHack.h">
+			<Option target="hackLib2"/>
+		</Unit>
+		<Unit filename="/home/echlitk1/CLionProjects/hack/main.cpp">
+			<Option target="hack"/>
+		</Unit>
+		<Unit filename="/home/echlitk1/CLionProjects/hack/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/echlitk1/CLionProjects/hack/../hackLib3/FindhackLib3.cmake">
+			<Option virtualFolder="CMake Files\..\hackLib3\"/>
+		</Unit>
+		<Unit filename="/home/echlitk1/CLionProjects/hack/hackLib2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hackLib2\"/>
+		</Unit>
+		<Unit filename="/home/echlitk1/CLionProjects/hack/hackLib2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\hackLib2\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

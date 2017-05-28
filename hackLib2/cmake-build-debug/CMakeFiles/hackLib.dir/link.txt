@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -g  -shared -Wl,-soname,libhackLib.so -o libhackLib.so CMakeFiles/hackLib.dir/classyHack.cpp.o 

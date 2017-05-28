@@ -1,0 +1,6 @@
+/home/echlitk1/CLionProjects/hack/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/echlitk1/CLionProjects/hack/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/echlitk1/CLionProjects/hack/cmake-build-debug/CMakeFiles/hack.dir
+/home/echlitk1/CLionProjects/hack/cmake-build-debug/hackLib2/CMakeFiles/edit_cache.dir
+/home/echlitk1/CLionProjects/hack/cmake-build-debug/hackLib2/CMakeFiles/rebuild_cache.dir
+/home/echlitk1/CLionProjects/hack/cmake-build-debug/hackLib2/CMakeFiles/hackLib2.dir

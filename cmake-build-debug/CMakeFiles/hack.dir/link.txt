@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/hack.dir/main.cpp.o  -o hack hackLib2/libhackLib2.so -lHACKLIB3_LIBRARIES -Wl,-rpath,/home/echlitk1/CLionProjects/hack/cmake-build-debug/hackLib2 
